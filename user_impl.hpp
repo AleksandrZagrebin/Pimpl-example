@@ -3,7 +3,8 @@
 #include "user.hpp"
 #include <iostream>
 
-struct User::Impl {
+struct User::Impl 
+{
     std::string name;
     int age;
 
