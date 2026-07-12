@@ -3,7 +3,8 @@
 #include <memory>
 #include <string>
 
-class User {
+class User
+{
 public:
     User(const std::string& name, int age);
     ~User();
